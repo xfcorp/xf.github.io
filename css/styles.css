@@ -1,0 +1,133 @@
+/*** GLOBAL ***************************************************/
+html {
+	width:100%;
+	height:100%;
+}
+body {
+	width:100%;
+	height:100%;
+	background:#000000;
+	font-family:tahoma,arial,helvetica,'sans-serif';
+	font-size:10px;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+}
+/*** LINK *****************************************************/
+.link {
+	position:absolute;
+	top:0px;
+	right:0px;
+	padding:5px 10px 0px 0px;
+	font-weight:none;
+}
+.link-item:link,
+.link-item:active,
+.link-item:visited {
+	color:#ffffff;
+	text-decoration:none;
+}
+.link-item:hover {
+	color:#ffffff;
+	text-decoration:underline;
+}
+/*** LOGO *****************************************************/
+.logo {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:400px;
+	height:200px;
+	margin-left:-200px;
+	margin-top:-100px;
+	padding:0px;
+	border:0px;
+}
+/*** CHART ****************************************************/
+.chart {
+	width:100%;
+	height:96%;
+	padding-top:20px;
+}
+#chartdiv {
+	width:100%;
+	height:96%;
+}
+/*** COPYRIGHT ************************************************/
+.copyright {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:10px;
+	color:#ffffff;
+	padding:0px 0px 5px 10px;
+}
+/*** ERROR ****************************************************/
+.error {
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:100%;
+	text-align:center;
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+.error-item {
+	position:relative;
+	width:225px;
+	height:225px;
+	margin:0px auto 50px;
+}
+.error-box {
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	background:#000000;
+	border:6px dashed #ffffff;
+	z-index:-99;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	-ms-border-radius:40px;
+	-o-border-radius:40px;
+	border-radius:40px;
+}
+.error-desc {
+	font-size:36px;
+	font-weight:bold;
+	color:#ffffff;
+	text-transform:uppercase;
+	padding:40px 0px 0px 0px;
+}
+.error-code {
+	font-size:80px;
+	font-weight:normal;
+	color:#ffffff;
+	margin:-20px 0px -8px 0px;
+}
+.error-link a:link,
+.error-link a:active,
+.error-link a:visited {
+	background-color:#ffffff;
+	font-size:11px;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+	padding:4px 9px 4px 9px;
+	border:0px;
+}
+.error-link a:hover {
+	background-color:#000000;
+	color:#ffffff;
+	border:0px;
+}
+/*** END ******************************************************/
