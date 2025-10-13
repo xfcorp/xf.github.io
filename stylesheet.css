@@ -7,7 +7,7 @@ body {
 	width:100%;
 	height:100%;
 	background:#000000;
-	font-family:tahoma,arial,helvetica,'sans-serif';
+	font-family:tahoma,arial,helvetica;
 	font-size:10px;
 	margin:0px;
 	padding:0px;
@@ -15,6 +15,7 @@ body {
 }
 /*** LINK *****************************************************/
 .link {
+	color:#ffffff;
 	position:absolute;
 	top:0px;
 	right:0px;
@@ -42,23 +43,53 @@ body {
 	margin-top:-100px;
 	padding:0px;
 	border:0px;
+ 	z-index:-1;
 }
 /*** CHART ****************************************************/
 .chart {
 	width:100%;
 	height:96%;
-	padding-top:20px;
 }
 #chartdiv {
 	width:100%;
-	height:96%;
+	height:98%;
+	display:inline-block;
+}
+#charthead {
+	height:1%;
+	display:inline-block;
+}
+#chartfoot {
+	height:1%;
+	display:inline-block;
+}
+/*** CHARTIST *************************************************/
+.ct-chart {
+	z-index:0;
+}
+.ct-label {
+	fill:#ffffff;
+	color:#ffffff;
+	font-size:9px;
+	line-height:1px;
+}
+.ct-point {
+	stroke-width:10px;
+	stroke-linecap:round;
+}
+.ct-line {
+	fill:none;
+	stroke-width:1.5px;
+}
+.ct-series-a .ct-line,
+.ct-series-a .ct-point {
+	stroke:#ffffff;
 }
 /*** COPYRIGHT ************************************************/
 .copyright {
 	position:absolute;
 	bottom:0px;
 	left:0px;
-	font-size:10px;
 	color:#ffffff;
 	padding:0px 0px 5px 10px;
 }
