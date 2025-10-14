@@ -70,6 +70,7 @@ body {
 	color:#999999;
 	padding:0px 10px 5px 0px;
 	letter-spacing:-1px;
+	word-spacing:-2px;
 }
 .closing-item:link,
 .closing-item:active,
