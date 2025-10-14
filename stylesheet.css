@@ -10,7 +10,7 @@ body {
 	height:100%;
 	background:#000000;
 	font-family:tahoma,arial,helvetica;
-	font-size:10px;
+	font-size:9px;
 	margin:0px;
 	padding:0px;
 	overflow-x:hidden;
@@ -73,17 +73,18 @@ body {
 	position:absolute;
 	bottom:0px;
 	right:0px;
-	color:#ffffff;
+	color:#dddddd;
 	padding:0px 10px 5px 0px;
 }
 .closing-item:link,
 .closing-item:active,
 .closing-item:visited {
-	color:#ffffff;
+	color:#dddddd;
+	font-weight:600;
 	text-decoration:none;
 }
 .closing-item:hover {
-	color:#ffffff;
+	color:#dddddd;
 	text-decoration:underline;
 }
 /*** ERROR ****************************************************/
