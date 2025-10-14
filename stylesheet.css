@@ -73,13 +73,13 @@ body {
 	position:absolute;
 	bottom:0px;
 	right:0px;
-	color:#dddddd;
+	color:#bbbbbb;
 	padding:0px 10px 5px 0px;
 }
 .closing-item:link,
 .closing-item:active,
 .closing-item:visited {
-	color:#dddddd;
+	color:#bbbbbb;
 	text-decoration:none;
 }
 .closing-item:hover {
