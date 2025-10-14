@@ -10,7 +10,7 @@ body {
 	height:100%;
 	background:#000000;
 	font-family:'courier new',courier,monospace;
-	font-size:10px;
+	font-size:11px;
 	margin:0px;
 	padding:0px;
 	overflow-x:hidden;
@@ -58,11 +58,10 @@ body {
 }
 .ct-line {
 	fill:none;
+	stroke:#ffffff;
 	stroke-width:1.5px;
 }
-.ct-series-a .ct-line {
-	stroke:#ffffff;
-}
+
 /*** CLOSING **************************************************/
 .closing {
 	position:absolute;
@@ -70,6 +69,7 @@ body {
 	right:0px;
 	color:#999999;
 	padding:0px 10px 5px 0px;
+	letter-spacing:-1px;
 }
 .closing-item:link,
 .closing-item:active,
