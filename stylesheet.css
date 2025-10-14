@@ -56,16 +56,11 @@ body {
 	font-size:9px;
 	line-height:1px;
 }
-.ct-point {
-	stroke-width:10px;
-	stroke-linecap:round;
-}
 .ct-line {
 	fill:none;
 	stroke-width:1.5px;
 }
-.ct-series-a .ct-line,
-.ct-series-a .ct-point {
+.ct-series-a .ct-line {
 	stroke:#ffffff;
 }
 /*** CLOSING **************************************************/
@@ -126,14 +121,14 @@ body {
 	border-radius:40px;
 }
 .error-desc {
-	font-size:36px;
+	font-size:40px;
 	font-weight:bold;
 	color:#ffffff;
 	text-transform:uppercase;
 	padding:40px 0px 0px 0px;
 }
 .error-code {
-	font-size:80px;
+	font-size:76px;
 	font-weight:normal;
 	color:#ffffff;
 	margin:-20px 0px -8px 0px;
@@ -146,7 +141,7 @@ body {
 	font-weight:bold;
 	color:#000000;
 	text-decoration:none;
-	padding:4px 9px 4px 9px;
+	padding:4px 17px 4px 17px;
 	border:0px;
 }
 .error-link a:hover {
