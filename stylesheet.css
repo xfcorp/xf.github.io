@@ -80,7 +80,6 @@ body {
 .closing-item:active,
 .closing-item:visited {
 	color:#dddddd;
-	font-weight:600;
 	text-decoration:none;
 }
 .closing-item:hover {
