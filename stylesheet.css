@@ -73,18 +73,18 @@ body {
 	position:absolute;
 	bottom:0px;
 	right:0px;
-	color:#bbbbbb;
+	color:#999999;
 	padding:0px 10px 5px 0px;
 }
 .closing-item:link,
 .closing-item:active,
 .closing-item:visited {
-	color:#bbbbbb;
+	color:#999999;
 	text-decoration:none;
 }
 .closing-item:hover {
 	color:#dddddd;
-	text-decoration:underline;
+	text-decoration:none;
 }
 /*** ERROR ****************************************************/
 .error {
