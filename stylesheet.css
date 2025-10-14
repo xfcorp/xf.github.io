@@ -2,6 +2,8 @@
 html {
 	width:100%;
 	height:100%;
+	margin:0px;
+	padding:0px;
 }
 body {
 	width:100%;
@@ -12,25 +14,6 @@ body {
 	margin:0px;
 	padding:0px;
 	overflow-x:hidden;
-}
-/*** LINK *****************************************************/
-.link {
-	color:#ffffff;
-	position:absolute;
-	top:0px;
-	right:0px;
-	padding:5px 10px 0px 0px;
-	font-weight:none;
-}
-.link-item:link,
-.link-item:active,
-.link-item:visited {
-	color:#ffffff;
-	text-decoration:none;
-}
-.link-item:hover {
-	color:#ffffff;
-	text-decoration:underline;
 }
 /*** LOGO *****************************************************/
 .logo {
@@ -48,7 +31,7 @@ body {
 /*** CHART ****************************************************/
 .chart {
 	width:100%;
-	height:96%;
+	height:98%;
 }
 #chartdiv {
 	width:100%;
@@ -85,13 +68,23 @@ body {
 .ct-series-a .ct-point {
 	stroke:#ffffff;
 }
-/*** COPYRIGHT ************************************************/
-.copyright {
+/*** CLOSING **************************************************/
+.closing {
 	position:absolute;
 	bottom:0px;
-	left:0px;
+	right:0px;
 	color:#ffffff;
-	padding:0px 0px 5px 10px;
+	padding:0px 10px 5px 0px;
+}
+.closing-item:link,
+.closing-item:active,
+.closing-item:visited {
+	color:#ffffff;
+	text-decoration:none;
+}
+.closing-item:hover {
+	color:#ffffff;
+	text-decoration:underline;
 }
 /*** ERROR ****************************************************/
 .error {
