@@ -61,9 +61,8 @@ body {
 	stroke:#ffffff;
 	stroke-width:1.5px;
 }
-
-/*** CLOSING **************************************************/
-.closing {
+/*** ENDNOTE **************************************************/
+.endnote {
 	position:absolute;
 	bottom:0px;
 	right:0px;
@@ -72,13 +71,13 @@ body {
 	letter-spacing:-1px;
 	word-spacing:-2px;
 }
-.closing-item:link,
-.closing-item:active,
-.closing-item:visited {
+.endnote-item:link,
+.endnote-item:active,
+.endnote-item:visited {
 	color:#999999;
 	text-decoration:none;
 }
-.closing-item:hover {
+.endnote-item:hover {
 	color:#dddddd;
 	text-decoration:none;
 }
