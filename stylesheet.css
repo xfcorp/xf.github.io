@@ -1,0 +1,153 @@
+/*** © Xfamm Corporation ***/
+/*** GLOBAL ***************************************************/
+html {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+body {
+	width:100%;
+	height:100%;
+	background:#000000;
+	font-family:'courier new',courier,monospace;
+	font-size:11px;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+}
+/*** LOGO *****************************************************/
+.logo {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:400px;
+	height:200px;
+	margin-left:-200px;
+	margin-top:-100px;
+	padding:0px;
+	border:0px;
+ 	z-index:-1;
+}
+/*** CHART ****************************************************/
+.chart {
+	width:100%;
+	height:98%;
+}
+#chartdiv {
+	width:100%;
+	height:98%;
+	display:inline-block;
+}
+#charthead {
+	height:1%;
+	display:inline-block;
+}
+#chartfoot {
+	height:1%;
+	display:inline-block;
+}
+/*** CHARTIST *************************************************/
+.ct-chart {
+	z-index:0;
+}
+.ct-label {
+	fill:#999999;
+	color:#999999;
+	font-size:11px;
+	line-height:1px;
+}
+.ct-line {
+	fill:none;
+	stroke:#ffffff;
+	stroke-width:1.5px;
+}
+/*** ENDNOTE **************************************************/
+.endnote {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	color:#999999;
+	padding:0px 10px 5px 0px;
+	letter-spacing:-1px;
+	word-spacing:-2px;
+}
+.endnote-item:link,
+.endnote-item:active,
+.endnote-item:visited {
+	color:#999999;
+	text-decoration:none;
+}
+.endnote-item:hover {
+	color:#dddddd;
+	text-decoration:none;
+}
+/*** ERROR ****************************************************/
+.error {
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:100%;
+	text-align:center;
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+.error-item {
+	position:relative;
+	width:225px;
+	height:225px;
+	margin:0px auto 50px;
+}
+.error-box {
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	background:#000000;
+	border:6px dashed #ffffff;
+	z-index:-99;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	-ms-border-radius:40px;
+	-o-border-radius:40px;
+	border-radius:40px;
+}
+.error-desc {
+	font-size:40px;
+	font-weight:bold;
+	color:#ffffff;
+	text-transform:uppercase;
+	padding:40px 0px 0px 0px;
+}
+.error-code {
+	font-size:76px;
+	font-weight:normal;
+	color:#ffffff;
+	margin:-20px 0px -8px 0px;
+}
+.error-link a:link,
+.error-link a:active,
+.error-link a:visited {
+	background-color:#ffffff;
+	font-size:11px;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+	padding:4px 17px 4px 17px;
+	border:0px;
+}
+.error-link a:hover {
+	background-color:#000000;
+	color:#ffffff;
+	border:0px;
+}
+/*** END ******************************************************/
